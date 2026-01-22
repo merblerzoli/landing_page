@@ -42,11 +42,39 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+    padding: 100px 15%;
+    background-color: #1F2937;
 }
-.picturemain{
+.hero-text{
+    flex: 1;
+    padding-right: 50px;
+}
+.hero-text h1{
+    font-size: 48px;            
+    font-weight: 900;
+    color: #F9FAF8;            
+    margin-bottom: 10px;
+}
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;             
+    margin-bottom: 20px;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;  
+    color: white;
+    padding: 10px 30px;      
+    border-radius: 8px;         
+    border: none;               
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero-image{
     display: flex;
-    justify-content:end;  
+    flex: 1;
+    justify-content: flex-end; 
    
 }
 .secondary{
@@ -65,8 +93,11 @@ a{
 }
 .secondtexts{
     display: flex;
-    justify-content: center;
-    gap:12px;
+    justify-content: space-evenly;
+    gap:10px;
+    padding:15px 9%;
+    
+    
 }
 .thirdsection{
     background-color: #E5E7EB;
@@ -82,5 +113,48 @@ a{
 .thirdauthor{
     display: flex;
     justify-content: center;
+}
+.fourthsection{
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    margin: 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourthheader h3{
+   
+    color: white;
+    margin:  0px;
+    font-size: 30px;
+    margin-bottom:  10px;
+}
+.fourthheader p{
+    margin: 0px;
+    color: white;
+}
 
+
+
+.fourthbutton{
+    color: white;
+    color:#3882F6;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    margin: 0px;
+    color: white;
+    
 }
